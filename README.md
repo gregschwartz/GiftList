@@ -8,6 +8,6 @@ Start the server from the top-level directory with `node server/index`.
 
 ## Client
 
-You can run the client from the top-level directory with `node client/index` to test a single name.
+1. Test a single name: run `node client/index` 
 
-To run many tests, run `node client/testMany` and it will output the number of tests, any failing results, and the final status (100% pass, or fail).
+2. Test many names (both on, and not on the list), run `node client/testMany`.  It will output the number of tests, any failing results, and the final status (100% pass, or fail).
